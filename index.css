@@ -1,0 +1,48 @@
+.father{
+width: 1200px;
+display: flex;
+margin: auto;
+padding: 20px;
+box-shadow: 2px 2px 20px black;
+margin-top: 50px;
+border-radius: 20px;
+display: flex;
+justify-content: space-between;
+}
+.img{
+width: 100%;
+transition: .6s;
+border-radius: 20px ;
+}
+.box :hover .image_iphone{
+    transition: 7s;
+    filter: grayscale(100px);
+}
+.box{
+width: 250px;
+transition: .5s;
+text-align: center;
+box-shadow: 2px 2px 10px black;
+border-radius: 20px;
+}
+.box :hover{    
+transition: .5s;
+cursor: pointer;
+box-shadow: 2px 2px 20px rgb(0, 0, 0);
+}
+.info{
+padding: 10px;
+}
+.btn {
+margin-bottom: 30px;
+border: none;
+padding: 10px 40px;
+background: gray;
+color: white;
+text-transform: uppercase;
+margin-top: 20px;
+border-radius: 10px;
+}
+p{
+    border-radius: 10px;
+}
